@@ -1,6 +1,6 @@
 module.exports = function(app, config) {
-	var auth = require('./auth.js')(config);
-	var jwt    = require('jsonwebtoken');
+	var auth = 	require('./auth.js')(config);
+	var jwt = 	require('jsonwebtoken');
 	var req, res
 	
 	app.post('/auth', function(_req, _res) {
