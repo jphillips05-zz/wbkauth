@@ -9,7 +9,7 @@ module.exports = function(app, config) {
 		auth.login(req.body.username, req.body.password, function(err, data){			
 			if(data) {
 				var token = jwt.sign(data, config.jwtSecret, {
-					expiresInMinutes: 1440 // expires in 24 hours
+					expiresInMinutes: 60*24
 				});
 				
 				res.send({

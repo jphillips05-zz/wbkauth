@@ -1,0 +1,18 @@
+{
+	"port": 0,
+	"jwtSecret": "",
+	"mysql": {
+		"host": "localhost",
+		"user": "",
+		"password": "",
+		"database": "",
+		"users_table": "",
+		"user_salt": "",
+		"username_field": "",
+		"password_field": "",
+		"query": {
+			"user_select": ""
+		}
+	}
+
+}
